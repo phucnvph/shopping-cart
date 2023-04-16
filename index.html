@@ -1,35 +1,24 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Home page</title>
 </head>
 
 <body>
     <h1 class="text-center">Home page</h1>
 
     <div class="container">
-        <a href="cart.html" class="btn btn-success">Cart</a>
-        <div class="row">
-            <div class="col-4 pt-5">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="https://product.hstatic.net/200000571041/product/600_600_xs_max_white_800x800_3_d3a9e3141666443ab03cde9c3ba368df_grande.jpeg">
-                    <div class="card-body">
-                        <h5 class="card-title">Iphone 10</h5>
-                        <b>1000</b>$
-                        <p class="card-text">Hàng Cũ</p>
-                        <button class="btn btn-warning">Add to cart</button>
-                    </div>
-                </div>
-            </div>
+        <a href="cart.html" class="btn btn-success">Cart<i class="fa fa-spinner fa-spin" style="font-size:24px"></i></a>
+        <div class="row" id="show-products">
+            <!-- Vị trí hiện các sản phẩm -->
         </div>
     </div>
 
@@ -44,6 +33,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
